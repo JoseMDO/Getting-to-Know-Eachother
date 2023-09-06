@@ -1,0 +1,69 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom right, cyan, blue);
+    color: white;
+    font-family: 'Courier New', Courier, monospace
+}
+
+a {
+    color: white
+}
+
+
+.header-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.header-details {
+    display: flex;
+    flex-direction: column;
+    
+}
+header h1 {
+    font-size: 4rem;
+    margin: 15px;
+    margin-top: 0px;
+    display: block;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+header p {
+    font-size: 2rem;
+    margin: 20px;
+}
+
+.header-photo {
+    width: 500px;
+    border-radius: 30px;
+}
+
+
+
+.intro, 
+.learn,
+.favorite,
+.fact,
+.innovation {
+    display: flex;
+    flex-direction: column;
+    margin: 40px;
+    font-size: 20px;
+}
+.intro h2,
+.learn h2, 
+.favorite h2,
+.fact h2,
+.innovation h2 {
+    margin: auto;
+    margin-top: 40px;
+    font-size: 40px;
+}
+
+.innovations-list {
+    list-style-type: square;
+}
